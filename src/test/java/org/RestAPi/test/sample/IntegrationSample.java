@@ -1,4 +1,4 @@
-package org.RestAPi.sample;
+package org.RestAPi.test.sample;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
