@@ -10,10 +10,10 @@ public class TestCreateToken extends BaseTest {
     @Test
     public void testToken_Post(){
         //Preparation of request
-        requestSpecififcation.basePath(APIConstants.AUTH_URL);
+        requestSpecification.basePath(APIConstants.AUTH_URL);
 
         //making the request
-        response = RestAssured.given(requestSpecififcation)
+        response = RestAssured.given(requestSpecification)
                 .when().body(payloadManager.setAuthPayload()).log().all().post();
 
         //Extraction --> JSON String to Java Object

@@ -36,7 +36,8 @@ public class PayloadManager {
         //convert jsON String to java Object so that we can Verify response body
 
     }
-
+    //Deserialization
+// in this method we get the bookingresponse so return type is Booking Response class
     public BookingResponse bookingResponseJava(String responseString) {
         gson = new Gson();
         //below code is everything we have done we map with this BookingResponse class(Getter setter)
@@ -86,5 +87,31 @@ public class PayloadManager {
 
         //convert jsON String to java Object so that we can Verify response body
 
+   }
+
+
+
+    // in this method we get the bookingresponse so return type is Booking Response class
+    public Booking getResponseFromJsonBooking(String getResponse){
+        gson = new Gson();
+        Booking booking = gson.fromJson(getResponse, Booking.class);
+        return booking;
     }
+
+public String fullUpdateBookingPayload(){
+    Booking booking = new Booking();
+    booking.setFirstname("Dinesh");
+    booking.setLastname("Cruise");
+    booking.setTotalprice(111);
+    booking.setDepositpaid(true);
+
+    Bookingdates bookingdates = new Bookingdates();
+    bookingdates.setCheckin("2024-02-01");
+    bookingdates.setCheckout("2024-02-02");
+
+    booking.setBookingdates(bookingdates);
+    booking.setAdditionalneeds("Breakfast");
+    return gson.toJson(booking); // here we changed to jSON and keep it in booking(reference )
+
+}
 }

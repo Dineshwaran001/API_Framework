@@ -12,9 +12,9 @@ public class TestPingRequest extends BaseTest {
     @Test
     @Description("This TC is to Verify Ping request")
     public void ping_Request(){
-        requestSpecififcation.basePath(APIConstants.PING_URL);
+        requestSpecification.basePath(APIConstants.PING_URL);
 
-        response = RestAssured.given(requestSpecififcation).when().get(); // this is get request
+        response = RestAssured.given(requestSpecification).when().get(); // this is get request
 
         validatableResponse= response.then().log().all();
 

@@ -17,8 +17,8 @@ public class TestCreateBooking extends BaseTest {
 
 //basepath is coming from RestAssured
         //setup and Making Request
-        requestSpecififcation.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL);
-        response= RestAssured.given(requestSpecififcation)
+        requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL);
+        response= RestAssured.given(requestSpecification)
                 .when().body(payloadManager.CreatePayLoadString()).log().all().post();// create payload call from payload manager
 
         System.out.println("String-->"+ response.asString());// this will print response as String
