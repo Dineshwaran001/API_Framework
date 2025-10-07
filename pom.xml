@@ -90,32 +90,4 @@
       </dependency>
 
   </dependencies>
-
-    <build>
-        <plugins>
-            <!-- Allure plugin to generate reports -->
-            <plugin>
-                <groupId>io.qameta.allure</groupId>
-                <artifactId>allure-testng</artifactId>
-                <version>2.30.0</version>
-                <executions>
-                    <execution>
-                        <id>clean-reports</id>
-                        <phase>clean</phase>
-                        <goals>
-                            <goal>clean</goal>
-                        </goals>
-                    </execution>
-
-                    <execution>
-                        <id>generate-report</id>
-                        <phase>post-integration-test</phase>
-                        <goals>
-                            <goal>serve</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 </project>
