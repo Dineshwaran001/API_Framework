@@ -6,7 +6,7 @@ API Automation Framework with the CRUD of Restful Booker.
 
 `mvn test -Dsurefire.suiteXmlFiles=testng.xml`
 
-<img width="1130" alt="Screenshot 2023-10-31 at 12 25 55 PM" src="https://github-production-user-asset-6210df.s3.amazonaws.com/1409610/279284147-69f398b3-8798-4fba-a091-3b1e321dcc7d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251008%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251008T045037Z&X-Amz-Expires=300&X-Amz-Signature=ce458bd48541c86bd4296a823a4f9dfcc092683ec51c8527ca70d341d57563a2&X-Amz-SignedHeaders=host">
+<img width="1130" alt="Screenshot 2023-10-31 at 12 25 55 PM" src="https://github-production-user-asset-6210df.s3.amazonaws.com/1409610/279284147-69f398b3-8798-4fba-a091-3b1e321dcc7d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251008%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251008T045652Z&X-Amz-Expires=300&X-Amz-Signature=b95e80d27d482068f2eb7c891de64c60fefd36a6d9939da948be6a5a18e9528b&X-Amz-SignedHeaders=host">
 
 ## Tech Stack
 
