@@ -6,8 +6,7 @@ API Automation Framework with the CRUD of Restful Booker.
 
 `mvn test -Dsurefire.suiteXmlFiles=testng.xml`
 
-<img width="1130" alt="Screenshot 2023-10-31 at 12 25 55 PM" src="https://github.com/PramodDutta/APIAutomationRestAssured/assets/1409610/69f398b3-8798-4fba-a091-3b1e321dcc7d">
-
+<img width="1130" alt="Screenshot 2023-10-31 at 12 25 55 PM" src="https://github.com/dineshwaran/API_Framework/assets/1409610/69f398b3-8798-4fba-a091-3b1e321dcc7d">
 ## Tech Stack
 
 1. Java ( JDK > 22)
@@ -21,11 +20,10 @@ API Automation Framework with the CRUD of Restful Booker.
 9. Jenkins File
 
 #### API Framework Important Components
-![Screenshot 2024-06-29 at 12 44 29](https://github.com/PramodDutta/APIAutomationFramworkATB6x/assets/1409610/98bbc62d-7837-4bdc-900b-b214c675af6d)
+![Screenshot 2024-06-29 at 12 44 29](https://github.com/dineshwaran/APIFramework/assets/1409610/98bbc62d-7837-4bdc-900b-b214c675af6d)
 
 #### Running via CI/CD
-<img width="1262" alt="Screenshot 2023-10-31 at 12 26 07 PM" src="https://github.com/PramodDutta/APIAutomationRestAssured/assets/1409610/2d58bf82-0ffb-4fcb-a2d9-cf26920fa7b5">
-
+<img width="1262" alt="Screenshot 2023-10-31 at 12 26 07 PM" src="https://github.com/dineshwaran/API_Framework/assets/1409610/2d58bf82-0ffb-4fcb-a2d9-cf26920fa7b5">
 
 Run
 

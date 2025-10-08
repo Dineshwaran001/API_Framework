@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="API_Framework">
         <classes>
-            <class name="org.RestAPi.sample.IntegrationSample">
+            <class name="org.RestAPi.test.e2e_Integration.CreateDeleteVerify">
             </class>
         </classes>
     </test>

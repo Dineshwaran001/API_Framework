@@ -1,4 +1,4 @@
-package org.RestAPi.test.E2E;
+package org.RestAPi.test.e2e_Integration;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
@@ -7,7 +7,6 @@ import org.RestAPi.base.BaseTest;
 import org.RestAPi.endPoints.APIConstants;
 import org.RestAPi.pojos.request.Booking;
 import org.RestAPi.pojos.response.BookingResponse;
-import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
