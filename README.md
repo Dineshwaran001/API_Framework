@@ -6,7 +6,8 @@ API Automation Framework with the CRUD of Restful Booker.
 
 `mvn test -Dsurefire.suiteXmlFiles=testng.xml`
 
-<img width="1130" alt="Screenshot 2023-10-31 at 12 25 55 PM" src="https://github.com/dineshwaran/API_Framework/assets/1409610/69f398b3-8798-4fba-a091-3b1e321dcc7d">
+<img width="1130" alt="Screenshot 2023-10-31 at 12 25 55 PM" src="https://github-production-user-asset-6210df.s3.amazonaws.com/1409610/279284147-69f398b3-8798-4fba-a091-3b1e321dcc7d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251008%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251008T045037Z&X-Amz-Expires=300&X-Amz-Signature=ce458bd48541c86bd4296a823a4f9dfcc092683ec51c8527ca70d341d57563a2&X-Amz-SignedHeaders=host">
+
 ## Tech Stack
 
 1. Java ( JDK > 22)
@@ -20,10 +21,11 @@ API Automation Framework with the CRUD of Restful Booker.
 9. Jenkins File
 
 #### API Framework Important Components
-![Screenshot 2024-06-29 at 12 44 29](https://github.com/dineshwaran/APIFramework/assets/1409610/98bbc62d-7837-4bdc-900b-b214c675af6d)
+![Screenshot 2024-06-29 at 12 44 29](https://github-production-user-asset-6210df.s3.amazonaws.com/1409610/344375319-98bbc62d-7837-4bdc-900b-b214c675af6d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251008%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251008T045205Z&X-Amz-Expires=300&X-Amz-Signature=6c38e33447d54a75c431a2f6a967bab91c9b0143a23a5aeb2488e6418828c9ba&X-Amz-SignedHeaders=host)
 
 #### Running via CI/CD
-<img width="1262" alt="Screenshot 2023-10-31 at 12 26 07 PM" src="https://github.com/dineshwaran/API_Framework/assets/1409610/2d58bf82-0ffb-4fcb-a2d9-cf26920fa7b5">
+<img width="1262" alt="Screenshot 2023-10-31 at 12 26 07 PM" src="https://github-production-user-asset-6210df.s3.amazonaws.com/1409610/279284186-2d58bf82-0ffb-4fcb-a2d9-cf26920fa7b5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251008%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251008T045242Z&X-Amz-Expires=300&X-Amz-Signature=4db517587b31595ad1892d414a604d07b8bfbe448871b031df952f03eede2d4f&X-Amz-SignedHeaders=host">
+
 
 Run
 
@@ -67,7 +69,7 @@ To run tests in parallel, add the parallel attribute to your testng.xml file:
 
 ```allure serve allure-results/```
 
-![image](https://github.com/PramodDutta/APIAutomationFramworkATB6x/assets/1409610/79ba2093-a1b7-4b36-ba16-9a6827af7afe)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/1409610/344375195-79ba2093-a1b7-4b36-ba16-9a6827af7afe.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251008%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251008T045323Z&X-Amz-Expires=300&X-Amz-Signature=fc632036e77fe38df3e0992453165ff9afa9b8d3395673a7cf0b703c8f757c96&X-Amz-SignedHeaders=host)
 
 
 Certainly! I'll guide you through the steps to install Allure and generate a report for a Java project using TestNG. Here's a step-by-step process:
